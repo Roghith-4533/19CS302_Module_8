@@ -12,36 +12,43 @@ Print the sum and difference of two int variable on a new line.
 
 Print the sum and difference of two float variable rounded to one decimal place on a new line.
 
-## Input Format
+# AIM:
+ To writa a program to print the sum of the integers in the array
 
-The first line contains two integers.
+ # ALGORITHM:
+ 1.Start.
+ 
+2.Define a variables.
 
-The second line contains two floating point numbers.
+3.Write a program to print the sum of the integers in the array.
 
-## Constraints 
+4.Read the value using scanf.
 
-1 ≤ integer variables ≤ 104
+5.Ask the user to make an input.
 
-1 ≤ float variables ≤ 104
+6.Print out the answer.
 
-## Output Format
+7.End.
 
-Print the sum and difference of both integers separated by a space on the first line, and the sum and difference of both float (scaled to 1 decimal place) separated by a space on the second line.
+# PROGRAM:
+```
+#include<stdio.h>
+int main()
+{
+int i,n,sum=0,arr[100];
+scanf("%d",&n);
+{
+for(i=0;i<n;i++)
+scanf("%d",&arr[i]);
+for(i=0;i<n;i++)
+sum=sum+arr[i];
+i++;
+}printf("%d",sum);
+}
+```
 
-Sample Input 
+# OUTPUT:
+![WhatsApp Image 2025-05-21 at 09 29 20_b1cd1eed](https://github.com/user-attachments/assets/0df904d1-f63a-4826-9e04-4226e720ded5)
 
-10 4
-
-4.0 2.0
-
-Sample Output 
-
-14 6
-
-6.0 2.0
-
-Explanation
-
-When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
-
-When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
+# RESULT:
+Thus,the program is executed and verified successfully
